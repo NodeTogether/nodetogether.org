@@ -1,0 +1,59 @@
+/* reset */
+
+* {
+  margin: 0;
+}
+
+/* nav */
+
+nav {
+  padding: 10px 0;
+  min-height: 20px;
+  background-color: #80bd01; 
+}
+
+nav ul li {
+  padding: 0 20px;
+  color: white;
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* sections */
+section {
+  margin: 20px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* jumbo */
+.jumbo {
+  margin-top: 0;
+  padding: 100px 0;
+  background-color: #2a303c;
+  color: white;
+}
+
+/* util */
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.center {
+  margin: 0 auto;
+}
