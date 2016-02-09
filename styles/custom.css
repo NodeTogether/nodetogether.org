@@ -1,11 +1,9 @@
 /* reset */
-
 * {
   margin: 0;
 }
 
 /* nav */
-
 nav {
   padding: 10px 0;
   min-height: 20px;
@@ -37,6 +35,26 @@ p {
   margin: 0 auto;
 }
 
+button {
+  border: none;
+  background-color: #80bd01;
+  color: white;
+  padding: 10px 15px;
+}
+
+/* type */
+h3 {
+  color: #6ea2c9;
+}
+
+h2 {
+  color: #2a303c;
+}
+
+a {
+  color: #80bd01;
+  text-decoration: none;
+}
 /* jumbo */
 .jumbo {
   margin-top: 0;
