@@ -1,3 +1,13 @@
+/* colors */
+
+/*
+
+dark-grey:  #2a303c;
+green:      #80bd01;
+blue:       #6ea2c9;
+
+*/
+
 /* reset */
 * {
   margin: 0;
@@ -23,16 +33,17 @@ nav a {
 
 /* sections */
 section {
-  margin: 20px 0;
-}
-
-p {
-  margin: 10px 0;
+  padding: .7em 0;
 }
 
 .container {
   width: 80%;
+  max-width: 1100px;
   margin: 0 auto;
+}
+
+.container--narrow {
+  width: 60%;
 }
 
 button {
@@ -43,8 +54,31 @@ button {
 }
 
 /* type */
-h3 {
+
+html {
+  font-size: 110%;
+  line-height: 1.4em;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  margin-bottom: .7em;
+}
+
+h1, h2, h3 {
+  line-height: 1.2em;
+  margin-top: 1.2em;
+  margin-bottom: .6em;
+}
+
+h1 {
   color: #6ea2c9;
+}
+
+@media all and (min-width: 800px) {
+  h1 {
+    font-size: 2.25em;
+  }
 }
 
 h2 {
@@ -57,10 +91,8 @@ a {
 }
 /* jumbo */
 .jumbo {
-  margin-top: 0;
-  padding: 100px 0;
-  background-color: #2a303c;
-  color: white;
+  padding: 2.8em 0;
+  background-color: #efefef;
 }
 
 /* util */
@@ -74,6 +106,10 @@ a {
 
 .center {
   margin: 0 auto;
+}
+
+.center-text {
+  text-align: center;
 }
 
 .clear-fix:after {
