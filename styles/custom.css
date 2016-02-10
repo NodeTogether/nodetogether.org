@@ -32,10 +32,6 @@ nav a {
 }
 
 /* sections */
-section {
-  padding: .7em 0;
-}
-
 .container {
   width: 80%;
   max-width: 1100px;
@@ -51,6 +47,19 @@ button {
   background-color: #80bd01;
   color: white;
   padding: 10px 15px;
+}
+
+/* grid */
+.row {
+  display: table;
+  table-layout: fixed;
+  margin: 0 -.7em;
+}
+
+.col {
+  display: table-cell;
+  width: 1%;
+  padding: .7em;
 }
 
 /* type */
