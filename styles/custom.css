@@ -42,6 +42,13 @@ nav a {
   width: 60%;
 }
 
+.page-footer {
+  background: #2a303c;
+  color: white;
+  padding: 1.4em 0;
+  margin-top: 1.4em;
+}
+
 button {
   border: none;
   background-color: #80bd01;
@@ -67,7 +74,7 @@ button {
 html {
   font-size: 110%;
   line-height: 1.4em;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 p {
