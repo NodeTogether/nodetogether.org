@@ -15,20 +15,34 @@ blue:       #6ea2c9;
 
 /* nav */
 nav {
-  padding: 10px 0;
-  min-height: 20px;
   background-color: #2a303c;
 }
 
 nav ul li {
-  padding: 0 20px;
   color: white;
-  display: inline;
+  display: inline-block;
 }
 
 nav a {
   color: white;
   text-decoration: none;
+  display: block;
+  padding: 1.4em .7em;
+  height: 2.8em;
+  position: relative;
+}
+
+nav .active a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: .7em solid transparent;
+  border-top-color: #2a303c;
+  position: absolute;
+  bottom: -1.4em;
+  left: 50%;
+  margin-left: -.7em;
 }
 
 /* sections */
