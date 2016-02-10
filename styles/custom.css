@@ -7,7 +7,7 @@
 nav {
   padding: 10px 0;
   min-height: 20px;
-  background-color: #80bd01; 
+  background-color: #80bd01;
 }
 
 nav ul li {
@@ -74,4 +74,10 @@ a {
 
 .center {
   margin: 0 auto;
+}
+
+.clear-fix:after {
+  content: " ";
+  display: table;
+  clear: both;
 }
