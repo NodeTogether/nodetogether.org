@@ -49,11 +49,14 @@ nav a {
   margin-top: 1.4em;
 }
 
-button {
+.btn {
   border: none;
+  display: inline-block;
   background-color: #80bd01;
   color: white;
-  padding: 10px 15px;
+  font-size: 1em;
+  padding: .7em 1em;
+  cursor: pointer;
 }
 
 /* grid */
