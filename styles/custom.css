@@ -102,6 +102,16 @@ img {
   width: 25%;
 }
 
+.event {
+  border: 1px solid #6ea2c9;
+  float: left;
+  display: inline;
+  min-width: 28%;
+  text-align: center;
+  padding-bottom: 25px;
+  margin: 10px;
+}
+
 /* type */
 
 html {
@@ -145,7 +155,12 @@ a {
   text-decoration: none;
 }
 
-
+.date {
+  color: #80bd01;
+  line-height: 1.2em;
+  margin-top: 1.2em;
+  margin-bottom: .6em;
+}
 /* jumbo */
 .jumbo {
   padding: 2em 0;
