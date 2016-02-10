@@ -75,6 +75,10 @@ nav .active a::after {
   cursor: pointer;
 }
 
+.calls-to-action .btn {
+  margin: 5px;
+}
+
 img {
   width: 100%;
 }
@@ -148,6 +152,10 @@ h1 {
 
 h2 {
   color: #2a303c;
+}
+
+.jumbo h2 {
+  color: white;
 }
 
 a {
