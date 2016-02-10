@@ -17,7 +17,7 @@ blue:       #6ea2c9;
 nav {
   padding: 10px 0;
   min-height: 20px;
-  background-color: #80bd01;
+  background-color: #2a303c;
 }
 
 nav ul li {
@@ -93,7 +93,7 @@ a {
 /* jumbo */
 .jumbo {
   padding: 2.8em 0;
-  background-color: #efefef;
+  background-color: #f7f7f7;
 }
 
 /* util */
