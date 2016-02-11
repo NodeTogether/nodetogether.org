@@ -124,6 +124,16 @@ address {
   margin: 10px;
 }
 
+a .event:hover {
+  border: 1px solid #6ea2c9;
+  color: #2a303c;
+  background-color: #6ea2c9;
+}
+
+a .event:hover .date {
+  color: white;
+}
+
 section {
   padding: 10px 0;
 }
