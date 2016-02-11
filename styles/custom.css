@@ -257,3 +257,9 @@ a {
   display: table;
   clear: both;
 }
+
+@media (min-width:85em){
+  .brought-to-you {
+    margin-top: -40px;
+  }
+}
