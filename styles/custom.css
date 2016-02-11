@@ -76,6 +76,7 @@ nav .active a::after {
   font-size: 1em;
   padding: .7em 1em;
   cursor: pointer;
+  margin: 10px 0;
 }
 
 .calls-to-action .btn {
@@ -117,6 +118,14 @@ img {
   text-align: center;
   padding-bottom: 25px;
   margin: 10px;
+}
+
+section {
+  padding: 10px 0;
+}
+
+#apply {
+  background-color: #6ea2c9;
 }
 
 /* type */
@@ -167,7 +176,6 @@ h2 {
   position: relative;
   left: 490px;
 }
-
 
 .brought-to-you h3 {
   display: inline;
