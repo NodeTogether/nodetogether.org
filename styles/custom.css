@@ -79,6 +79,10 @@ nav .active a::after {
   margin: 10px 0;
 }
 
+.btn:hover {
+  background-color: #73aa00;
+}
+
 .calls-to-action .btn {
   margin: 5px;
 }
