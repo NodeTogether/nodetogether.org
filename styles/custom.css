@@ -230,7 +230,7 @@ h2 {
 
 @media (max-width: 48em){
   .event {
-    min-width: 100%;
+    min-width: calc(100% - 22px);
   }
 }
 
