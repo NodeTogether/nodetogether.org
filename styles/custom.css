@@ -110,6 +110,10 @@ img {
   width: 25%;
 }
 
+address {
+  white-space: pre;
+}
+
 .event {
   border: 1px solid #6ea2c9;
   float: left;
@@ -126,6 +130,14 @@ section {
 
 #apply {
   background-color: #6ea2c9;
+}
+
+#sponsors img {
+  width: 60%;
+}
+
+.sponsor {
+  margin: 10px;
 }
 
 /* type */
