@@ -177,6 +177,9 @@ h1, h2, h3 {
   font-family: 'Pacifico', sans-serif;
   font-weight: normal;
 }
+.main-logo {
+  font-size: calc( 40px + (120 - 40) * ( (100vw - 320px) / ( 1180 - 320) ));
+}
 
 .subtitle {
   font-size: 1.5em;
@@ -198,10 +201,27 @@ h2 {
 }
 
 .brought-to-you {
-  margin-top: -80px;
-  margin-bottom: 80px;
-  position: relative;
-  left: 490px;
+  text-align: center;
+}
+
+
+@media (min-width: 48em){
+  .brought-to-you {
+    text-align: left;
+    position: relative;
+    left: 60%;
+    margin-top: -40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 85em){
+  .brought-to-you {
+    margin-top: -10px;
+    text-align: center;
+    position: static;
+    font-size: 1.5em;
+  }
 }
 
 .brought-to-you h3 {
@@ -258,8 +278,3 @@ a {
   clear: both;
 }
 
-@media (min-width:85em){
-  .brought-to-you {
-    margin-top: -40px;
-  }
-}
