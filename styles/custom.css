@@ -70,6 +70,12 @@ nav .active a::after {
   width: 60%;
 }
 
+@media (max-width: 48em) {
+  .container--narrow {
+    width: 100%;
+  }
+}
+
 .page-footer {
   background: #2a303c;
   color: white;
