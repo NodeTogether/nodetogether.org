@@ -205,6 +205,12 @@ h2 {
 }
 
 
+@media (max-width: 48em){
+  .event {
+    min-width: 100%;
+  }
+}
+
 @media (min-width: 48em){
   .brought-to-you {
     text-align: left;
