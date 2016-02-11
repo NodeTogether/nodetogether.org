@@ -26,6 +26,17 @@ nav ul li {
   display: inline-block;
 }
 
+@media (max-width: 48em) {
+  nav ul li {
+    display: block;
+    border-top: 1px solid white;
+  }
+  
+  nav .pull-left, nav .pull-right {
+    float: none;
+  }
+}
+
 nav a {
   color: white;
   text-decoration: none;
