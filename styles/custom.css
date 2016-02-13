@@ -27,6 +27,10 @@ nav {
   background-color: #80bd01;
 }
 
+nav ul {
+  padding: 0;
+}
+
 nav ul li {
   color: white;
   display: inline-block;
@@ -48,7 +52,6 @@ nav a {
   text-decoration: none;
   display: block;
   padding: 1.4em .7em;
-  height: 1.5em;
   position: relative;
 }
 
