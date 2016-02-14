@@ -253,7 +253,8 @@ h2 {
   }
 }
 
-.brought-to-you h3 {
+.brought-to-you h2 {
+  font-size: 1.17em;
   display: inline;
 }
 
@@ -281,6 +282,11 @@ a {
   padding: 2em 0;
   background-color: #2a303c;
   color: white;
+}
+
+/* about */
+#about h2 {
+    font-size: 1.17em;
 }
 
 /* util */
