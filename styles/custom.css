@@ -5,9 +5,10 @@
 
 /*
 
-dark-grey:  #2a303c;
-green:      #80bd01;
-blue:       #6ea2c9;
+dark-grey:   #2a303c;
+light-green: #80bd01;
+dark-green:  #578300
+blue:        #6ea2c9;
 
 */
 
@@ -18,7 +19,7 @@ blue:       #6ea2c9;
 
 /* nav */
 nav {
-  background-color: #80bd01;
+  background-color: #578300;
 }
 
 nav ul li {
@@ -88,7 +89,7 @@ nav .active a::after {
 .btn {
   border: none;
   display: inline-block;
-  background-color: #80bd01;
+  background-color: #578300;
   color: white;
   font-size: 1em;
   padding: .7em 1em;
