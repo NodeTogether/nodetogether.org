@@ -168,6 +168,24 @@ section {
   width: 60%;
 }
 
+#details {
+  /* background: url(../images/socks.jpg) no-repeat; */
+  background-color: #6ea2c9;
+  /* background-size: cover; */
+  color: white;
+  padding: 150px;
+}
+
+#details h2 {
+  color: white;
+}
+
+#details > div {
+  padding: 5px 10px 20px 10px;
+  background-color: rgba(42,48,60,.7);
+}
+
+
 .sponsor {
   margin: 10px;
 }
