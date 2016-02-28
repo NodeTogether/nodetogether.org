@@ -105,11 +105,13 @@ nav .active a::after {
 }
 
 img {
-  width: 100%;
+  width: auto;
+  height: auto;
 }
 
 .col-4 img {
   max-height: 300px;
+  max-width: 100%;
 }
 
 /* grid */
