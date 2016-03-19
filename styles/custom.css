@@ -109,7 +109,12 @@ img {
 }
 
 .col-4 img {
-  max-height: 300px;
+  width: auto;
+  height: 120px;
+}
+
+.col-4 img.npm-logo{
+  height: 80px;
 }
 
 /* grid */
@@ -252,7 +257,7 @@ h2 {
   }
 }
 
-@media (min-width: 48em){
+@media (min-width: 48em) and (max-width: 84em){
   .brought-to-you {
     text-align: left;
     position: relative;
@@ -268,6 +273,7 @@ h2 {
     text-align: center;
     position: static;
     font-size: 1.5em;
+    margin-bottom: 48px;
   }
 }
 
