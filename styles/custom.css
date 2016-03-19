@@ -347,4 +347,22 @@ a {
        display: none;
        padding-left: 0;
     }
+
+    #details {
+      padding: 40px;
+    }
+
+    #curriculum .row {
+      display: block;
+    }
+
+    #curriculum .col-4 {
+      display: inline-block;
+      width: 40%;
+    }
+
+    h1 {
+      font-size: 1.5em;
+    }
 }
+
