@@ -40,7 +40,7 @@ nav ul li {
 nav a {
   color: white;
   text-decoration: none;
-  display: block;
+  display: inline-block;
   padding: 1.4em .7em;
   height: 1.5em;
   position: relative;
@@ -57,6 +57,12 @@ nav .active a::after {
   bottom: 0em;
   left: 50%;
   margin-left: -0.7em;
+}
+
+nav .mobile-trigger {
+  display: none;
+  color: #fff;
+  margin: 0;
 }
 
 /* sections */
@@ -323,3 +329,40 @@ a {
   display: table;
   clear: both;
 }
+
+
+
+/* Adding fixes for responsive site*/
+
+@media only screen and (max-width: 420px) {
+
+    nav .mobile-trigger {
+      display: inline-block;
+      padding: 1.4em .7em;
+      float: right;
+      cursor: pointer;
+    }
+
+    nav ul {
+       display: none;
+       padding-left: 0;
+    }
+
+    #details {
+      padding: 40px;
+    }
+
+    #curriculum .row {
+      display: block;
+    }
+
+    #curriculum .col-4 {
+      display: inline-block;
+      width: 40%;
+    }
+
+    h1 {
+      font-size: 1.5em;
+    }
+}
+
