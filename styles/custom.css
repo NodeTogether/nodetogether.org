@@ -277,6 +277,12 @@ h2 {
   }
 }
 
+/* fix when we can do sass stuff */
+
+.green {
+  color: #80bd01;
+}
+
 .brought-to-you h3 {
   display: inline;
 }
@@ -329,6 +335,24 @@ a {
   display: table;
   clear: both;
 }
+
+/* button style */
+
+.input-email {
+  border: none;
+  display: inline-block;
+  background-color: #white;
+  color: black;
+  font-size: 1em;
+  padding: .7em 1em;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.mailing-list {
+  padding-top: 20px;
+}
+
 
 
 

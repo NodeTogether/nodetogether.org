@@ -1,189 +1,169 @@
 <!doctype html>
 <html>
-  <head>
-    <link rel="stylesheet" href="styles/custom.css" />
-    <title>NodeTogether</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src='scripts/scripts.js'></script>
-  </head>
-  <body>
-    <nav>
-      <div class="container clear-fix">
-        <div class="pull-left">
-          <a href="./">
-            <div class="logo">NodeTogether</div>
-          </a>
-          <p class="mobile-trigger pull-right" onclick="toggleMenu()">Menu</p>
-        </div>
-        <ul id="menuList" class="pull-right">
-          <li class="active">
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#curriculum">Curriculum</a>
-          </li>
-          <li>
-            <a href="#schedule">Schedule</a>
-          </li>
-          <li>
-            <a href="#apply">Apply</a>
-          </li>
-          <li>
-            <a href="#help">Volunteer</a>
-          </li>
-          <li>
-            <a href="#help">Sponsor</a>
-          </li>
-        </ul>
+
+<head>
+  <link rel="stylesheet" href="styles/custom.css" />
+  <title>NodeTogether</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src='scripts/scripts.js'></script>
+</head>
+
+<body>
+  <nav>
+    <div class="container clear-fix">
+      <div class="pull-left">
+        <a href="./">
+          <div class="logo">NodeTogether</div>
+        </a>
+        <p class="mobile-trigger pull-right" onclick="toggleMenu()">Menu</p>
       </div>
-    </nav>
-    <section class="jumbo">
-      <div class="container">
-        <h1 class="logo center-text main-logo">NodeTogether</h1>
-        <h1 class="subtitle center-text">Welcome! We’re&nbsp;glad you are&nbsp;here!</h1>
-        <section id="about">
-          <div class="center container--narrow">
-            <p>NodeTogether is an initiative to improve the diversity of the Node community by bringing people of underrepresented groups together to learn Node.js. NodeTogether is brought to you by <a href="https://www.npmjs.com/">npm</a> and the <a href="https://nodejs.org/en/foundation/">Node.js Foundation</a>.</p>
-            <p>We have learned from countless stories of students and mentors that our tech community loses many beginners to difficulties in the initial setup. NodeTogether seeks to make that experience better by pairing students with mentors who are expert open source contributors and to mitigate the frustration of going through the initial process alone.</p>
-            <p><em>We’re in it together!</em></p>
-            <h3 class="center-text">Apply Now!</h3>
-            <div class="calls-to-action center-text">
-              <a href="http://goo.gl/forms/bzUiKynzGK" class="btn">Student</a>
-              <a href="http://goo.gl/forms/fFzciI8lv5" class="btn">Mentor</a>
-              <a href="http://goo.gl/forms/wBX2XS0cd9" class="btn">Sponsor</a>
-            </div>
-          </div>
-        </section>
-      </div>
-    </section>
-    <section id="details">
-      <div class="container">
-        <h2 class="center-text">Some details</h2>
-        <div class="container container--narrow">
-          <ul class="center">
-            <li>participation is totally FREE!</li>
-            <li>you'll need to bring a laptop with Windows, OSX, or Linux</li>
-            <li>4-6 hours of interactive hands-on instruction</li>
-            <li>small class of 10-15 students</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section id="curriculum">
-      <div class="container">
-        <h2 class="center-text">You'll Learn to...</h2>
-        <div class="row">
-          <div class="col-4 center-text">
-            <img src="images/terminal.png" alt="terminal" />
-            <h3>Navigate the Command Line</h4>
-          </div>
-          <div class="col-4 center-text">
-            <img src="images/git.png" alt="git" />
-            <h3>Version Control with Git</h3>
-          </div>
-          <div class="col-4 center-text">
-            <img src="images/js-green.png" alt="node.js" />
-            <h3>Write Web Apps with Node.js</h3>
-          </div>
-          <div class="col-4 center-text">
-            <img src="images/npm-logo.svg" alt="npm" />
-            <h3>Use and Manage Packages with npm</h3>
-          </div>
-      </div>
-    </section>
-    <section class="jumbo" id="schedule">
-      <div class="container container--narrow">
-        <h2 class="center-text">Schedule</h2>
-        <p class="center-text">NodeTogether will be traveling the world with <a href="http://live.nodejs.org/">Node Live</a>.
-        <div class="events clear-fix">
-          <a href="/events/2016/los-angeles.html">
-            <div class="event" id="los-angeles">
-              <div class="date">February 24th</div>
-              <div class="location">Los Angeles, CA, USA</div>
-            </div>
-          </a>
-          <a href="/events/2016/bangalore.html">
-            <div class="event" id="bangalore">
-              <div class="date">March 20th</div>
-              <div class="location">Bengaluru, India</div>
-            </div>
-          </a>
-          <a href="/events/2016/paris.html">
-            <div class="event" id="paris">
-              <div class="date">April</div>
-              <div class="location">Paris, France</div>
-            </div>
-          </a>
-          <a href="/events/2016/london.html">
-            <div class="event" id="london">
-              <div class="date">July</div>
-              <div class="location">London, UK</div>
-            </div>
-          </a>
-          <a href="/events/2016/boston.html">
-            <div class="event" id="boston">
-              <div class="date">August</div>
-              <div class="location">Boston, MA, USA</div>
-            </div>
-          </a>
-          <a href="/events/2016/amsterdam.html">
-            <div class="event" id="amsterdam">
-              <div class="date">September</div>
-              <div class="location">Amsterdam, NL</div>
-            </div>
-          </a>
-          <a href="/events/2016/dc.html">
-            <div class="event" id="dc">
-              <div class="date">October</div>
-              <div class="location">Washington, DC, USA</div>
-            </div>
-          </a>
-          <a href="/events/2016/austin.html">
-            <div class="event" id="austin">
-              <div class="date">November</div>
-              <div class="location">Austin, TX, USA</div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
-    <section id="apply">
-      <div class="container">
-        <h2 class="center-text">Join us!</h2>
-        <p>The ideal student for a NodeTogether event is a new or junior developer who is interested in getting started with Node.js. We don’t expect you to have any programming experience and will be spending a lot of time getting a development environment set up.</p>
-       <p>Additionally, we are particularly interested in people from underrepresented groups, including but not limited to, women, people of color, people with mental and/or physical disabilities, LGBTQ, and non-binary people.</p>
-        <div class="center-text">
-          <a href="http://goo.gl/forms/bzUiKynzGK" class="btn">Apply as a student</a>
-        </div>
-      </div>
-    </section>
+      <ul id="menuList" class="pull-right">
+        <li class="active">
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#curriculum">Curriculum</a>
+        </li>
+        <li>
+          <a href="#schedule">Schedule</a>
+        </li>
+        <li>
+          <a href="#apply">Apply</a>
+        </li>
+        <li>
+          <a href="#help">Volunteer</a>
+        </li>
+        <li>
+          <a href="#help">Sponsor</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="jumbo">
     <div class="container">
-      <section id="help">
-        <div class="row">
-          <div class="col">
-            <h2>Mentors</h2>
-            <p>A key component to the success of NodeTogether is partnering with the local community to bring in empathetic and energetic mentors. No teaching experience is required, but it certainly is a plus!</p>
-            <p>This is your chance to give back to the community and get in touch with exciting new programming talents. Don’t be shy! Everyone’s experience is valuable, and so is yours.</p>
-            <a href="http://goo.gl/forms/fFzciI8lv5" class="btn">Apply as a mentor</a>
+      <h1 class="logo center-text main-logo">NodeTogether</h1>
+      <h1 class="subtitle center-text">Welcome! We’re&nbsp;glad you are&nbsp;here!</h1>
+      <section id="about">
+        <div class="center container--narrow">
+          <p>NodeTogether is an initiative to improve the diversity of the Node community by bringing people of underrepresented
+            groups together to learn Node.js. NodeTogether is brought to you by <a href="https://www.npmjs.com/">npm</a>            and the <a href="https://nodejs.org/en/foundation/">Node.js Foundation</a>.</p>
+          <p>We have learned from countless stories of students and mentors that our tech community loses many beginners to
+            difficulties in the initial setup. NodeTogether seeks to make that experience better by pairing students with
+            mentors who are expert open source contributors and to mitigate the frustration of going through the initial
+            process alone.</p>
+          <p><em>We’re in it together!</em></p>
+          <h3 class="center-text">Apply Now!</h3>
+          <div class="calls-to-action center-text">
+            <a href="http://goo.gl/forms/bzUiKynzGK" class="btn">Student</a>
+            <a href="http://goo.gl/forms/fFzciI8lv5" class="btn">Mentor</a>
+            <a href="http://goo.gl/forms/wBX2XS0cd9" class="btn">Sponsor</a>
           </div>
-          <div class="col">
-            <h2>Sponsors</h2>
-            <p>We are always looking for sponsors to help fund travel for mentors, provide space for events, or catering.</p>
-            <p>Sponsors will get prominent display on event pages as well as the option to distribute swag at events.</p>
-            <a href="http://goo.gl/forms/wBX2XS0cd9" class="btn">Become a sponsor</a>
+          <div class="mailing-list clear-fix">
+            <h3 class="center-text">Keep up to date with what we're doing!</h3>
+            <form style="padding:3px;text-align:center;" action="https://tinyletter.com/nodetogether" method="post" target="popupwindow"
+              onsubmit="window.open('https://tinyletter.com/nodetogether', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+              <p><label for="tlemail">Enter your email address</label></p>
+              <p><input class="input-email" type="text" style="width:140px" name="email" id="tlemail" /><input type="hidden"
+                  value="1" name="embed" /><input class="btn" type="submit" value="Subscribe" /></p>
+              <p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p>
+            </form>
           </div>
         </div>
       </section>
     </div>
-    <footer class="page-footer">
-      <div class="container">
-        <p>NodeTogether has a <a href="/CoC.html">Code of Conduct</a>. Please read it.</p>
-        <p>Did you find a typo? A bug? File an issue or PR here: <a href="https://github.com/ashleygwilliams/nodetogether.org">https://github.com/ashleygwilliams/nodetogether.org</a>. (Please be nice!)
-        </p>
-        <p>
-          (c)2016 Ashley Williams. For more information, please email <a href="mailto:info@nodetogether.org">info@nodetogether.org</a>.
-        </p>
+  </section>
+  <section id="details">
+    <div class="container">
+      <h2 class="center-text">Some details</h2>
+      <div class="container container--narrow">
+        <ul class="center">
+          <li>participation is totally FREE!</li>
+          <li>you'll need to bring a laptop with Windows, OSX, or Linux</li>
+          <li>4-6 hours of interactive hands-on instruction</li>
+          <li>small class of 10-15 students</li>
+        </ul>
       </div>
-    </footer>
-  </body>
+    </div>
+  </section>
+  <section id="curriculum">
+    <div class="container">
+      <h2 class="center-text">You'll Learn to...</h2>
+      <div class="row">
+        <div class="col-4 center-text">
+          <img src="images/terminal.png" alt="terminal" />
+          <h3>Navigate the Command Line</h4>
+        </div>
+        <div class="col-4 center-text">
+          <img src="images/git.png" alt="git" />
+          <h3>Version Control with Git</h3>
+        </div>
+        <div class="col-4 center-text">
+          <img src="images/js-green.png" alt="node.js" />
+          <h3>Write Web Apps with Node.js</h3>
+        </div>
+        <div class="col-4 center-text">
+          <img src="images/npm-logo.svg" alt="npm" />
+          <h3>Use and Manage Packages with npm</h3>
+        </div>
+      </div>
+  </section>
+  <section class="jumbo" id="schedule">
+    <div class="container container--narrow">
+      <h2 class="center-text">Schedule</h2>
+      <p class="center-text">NodeTogether doesn't currently have any 2017 events planned. Check back for updates.</p>
+      <div class="events clear-fix">
+        <h3 class="center-text">Past Events</h2>
+          <div class="past-events center-text">
+            <b class="green">2016:</b> Los Angeles, CA. Bengaluru, India. Paris, France. London, UK. Boston, MA. Amsterdam,
+            NL. Washington, DC. Austin, TX.
+          </div>
+      </div>
+    </div>
+  </section>
+  <section id="apply">
+    <div class="container">
+      <h2 class="center-text">Join us!</h2>
+      <p>The ideal student for a NodeTogether event is a new or junior developer who is interested in getting started with Node.js.
+        We don’t expect you to have any programming experience and will be spending a lot of time getting a development environment
+        set up.</p>
+      <p>Additionally, we are particularly interested in people from underrepresented groups, including but not limited to,
+        women, people of color, people with mental and/or physical disabilities, LGBTQ, and non-binary people.</p>
+      <div class="center-text">
+        <a href="http://goo.gl/forms/bzUiKynzGK" class="btn">Apply as a student</a>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <section id="help">
+      <div class="row">
+        <div class="col">
+          <h2>Mentors</h2>
+          <p>A key component to the success of NodeTogether is partnering with the local community to bring in empathetic and
+            energetic mentors. No teaching experience is required, but it certainly is a plus!</p>
+          <p>This is your chance to give back to the community and get in touch with exciting new programming talents. Don’t
+            be shy! Everyone’s experience is valuable, and so is yours.</p>
+          <a href="http://goo.gl/forms/fFzciI8lv5" class="btn">Apply as a mentor</a>
+        </div>
+        <div class="col">
+          <h2>Sponsors</h2>
+          <p>We are always looking for sponsors to help fund travel for mentors, provide space for events, or catering.</p>
+          <p>Sponsors will get prominent display on event pages as well as the option to distribute swag at events.</p>
+          <a href="http://goo.gl/forms/wBX2XS0cd9" class="btn">Become a sponsor</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer class="page-footer">
+    <div class="container">
+      <p>NodeTogether has a <a href="/CoC.html">Code of Conduct</a>. Please read it.</p>
+      <p>Did you find a typo? A bug? File an issue or PR here: <a href="https://github.com/ashleygwilliams/nodetogether.org">https://github.com/ashleygwilliams/nodetogether.org</a>.
+        (Please be nice!)
+      </p>
+      <p>
+        (c)2016 Ashley Williams. For more information, please email <a href="mailto:info@nodetogether.org">info@nodetogether.org</a>.
+      </p>
+    </div>
+  </footer>
+</body>
+
 </html>
